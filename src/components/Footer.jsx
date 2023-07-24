@@ -27,9 +27,11 @@ const Footer = () => {
         </div>
         <div className="icons">
           <a href="#">
-            {" "}
             <HiOutlineMail />
           </a>
+        </div>
+        <div className="schedule-a-call">
+          <a href="#"> Resume</a>
         </div>
       </div>
     </div>
