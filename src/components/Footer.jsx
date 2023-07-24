@@ -3,15 +3,10 @@ import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
   return (
-    <div className="footer padding">
-      <div className="designed">
-        <div className="blue-line"></div>Designed in Figma and coded in VS Code
-        by yours truly. Built with React.js
-      </div>
+    <div className="footer wrap-reverse flex padding">
       <div className="icons-container">
         <div className="icons">
           <a href="#">
-            {" "}
             <BsLinkedin />
           </a>
         </div>
@@ -33,6 +28,10 @@ const Footer = () => {
         <div className="schedule-a-call">
           <a href="#"> Resume</a>
         </div>
+      </div>
+      <div className="designed">
+        <div className="blue-line"></div>Designed in Figma and coded in VS Code
+        by yours truly. Built with React.js
       </div>
     </div>
   );
