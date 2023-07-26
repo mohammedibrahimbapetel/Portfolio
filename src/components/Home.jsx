@@ -1,10 +1,10 @@
 import React from "react";
 import "../index.css";
 import { PiHandWavingFill } from "react-icons/pi";
-import { profilepic } from "../assets/images";
+import { bg } from "../assets/images";
 const Home = () => {
   return (
-    <div className="home gap flex wrap-reverse padding">
+    <div className="home  padding">
       <div className="name-section item">
         <h3 className="hello-there">
           <span className="hand-wave">

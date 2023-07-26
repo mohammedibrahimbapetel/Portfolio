@@ -4,7 +4,7 @@ const Personalintroduction = () => {
   return (
     <div className="personalintroduction gap flex">
       <div className="item">
-        <h2 className="title">About me</h2>
+        <h2 className="title">Introduction</h2>
         <div className="aboutme-section">
           <p>
             "I'm Mohammed, a front-end developer specializing in web
@@ -18,21 +18,7 @@ const Personalintroduction = () => {
           </p>
         </div>
       </div>
-      <div className="item">
-        <h2 className="title">My Skills</h2>
-        <div className="skills-section">
-          <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-          </ul>
-          <ul>
-            <li>Git</li>
-            <li>Responsive Design</li>
-            <li>Problem Solving</li>
-          </ul>
-        </div>
-      </div>
+      <div className="item"></div>
     </div>
   );
 };

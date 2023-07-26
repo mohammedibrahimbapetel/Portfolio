@@ -12,10 +12,11 @@ const Projects = () => {
         <div className="project-details">
           <h2 className="title">Island Wonders</h2>
           <p>
-            Build and eco-friendly Social Landing page of an App, where an
-            individual can download the app for free and take part in a unique
-            and rewarding experience, connect with like-minded individuals and
-            make friends.
+            Build a travel website platform designed to help travelers,
+            research, their dream vacations. We offer a comprehensive database
+            of hotels, restaurants and attractions from maldives, allowing users
+            to seek the perfect hotel for a relaxing getaway, the best
+            restaurants for a culinary adventure, or must-visit landmarks
           </p>
         </div>
         <div className="project-image">
