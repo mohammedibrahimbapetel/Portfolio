@@ -3,10 +3,14 @@ import { tere, islandwonders } from "../assets/images";
 
 const Projects = () => {
   return (
-    <>
-      <div className="projects padding">
-        <div className="project-details item">
-          <h2 className="project-title">Tere</h2>
+    <div className="padding">
+      <div className="align-center">
+        <h2 className="title">What I've been working on</h2>
+        <h3>Take a look at some of the websites I've dedicated my time to</h3>
+      </div>
+      <div className="project ">
+        <div className="project-details">
+          <h2 className="title">Island Wonders</h2>
           <p>
             Build and eco-friendly Social Landing page of an App, where an
             individual can download the app for free and take part in a unique
@@ -14,20 +18,19 @@ const Projects = () => {
             make friends.
           </p>
         </div>
-        <div className="project-image item">
-          <a href="https://otere.netlify.app/" target="blank">
-            <img src={tere} alt="" />
+        <div className="project-image flex">
+          <a
+            className="item"
+            href="https://islandwonders.netlify.app/"
+            target="blank"
+          >
+            <img src={islandwonders} alt="Island Wonders project" />
           </a>
         </div>
       </div>
-      <div className="projects padding">
-        <div className="project-image item">
-          <a href="https://islandwonders.netlify.app/" target="_blank">
-            <img src={islandwonders} alt="" />
-          </a>
-        </div>
-        <div className="project-details item">
-          <h2 className="project-title">Island Wonders</h2>
+      <div className="project ">
+        <div className="project-details">
+          <h2 className="title">Tere</h2>
           <p>
             Build and eco-friendly Social Landing page of an App, where an
             individual can download the app for free and take part in a unique
@@ -35,8 +38,13 @@ const Projects = () => {
             make friends.
           </p>
         </div>
+        <div className="project-image flex">
+          <a className="item" href="https://otere.netlify.app/" target="_blank">
+            <img src={tere} alt="Tere project" />
+          </a>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

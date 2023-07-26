@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
@@ -11,25 +12,25 @@ const Footer = () => {
           </a>
         </div>
         <div className="icons">
-          <a href="#">
+          <a href="https://github.com/ahmadibrah77">
             <BsGithub />
           </a>
         </div>
         <div className="icons">
-          <a href="#">
+          <a href="https://wa.me/9024966338" target="_blank">
             <BsWhatsapp />
           </a>
         </div>
         <div className="icons">
-          <a href="#">
+          <a href="mailto:muaminab@gmail.com" target="_blank">
             <HiOutlineMail />
           </a>
         </div>
-        <div className="schedule-a-call">
+        <div className="btn">
           <a href="#"> Resume</a>
         </div>
       </div>
-      <div className="designed">
+      <div className="designed-section">
         <div className="blue-line"></div>Designed in Figma and coded in VS Code
         by yours truly. Built with React.js
       </div>

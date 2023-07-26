@@ -13,11 +13,13 @@
   -webkit-text-size-adjust: 100%;
   --dark-blue: #030b0e;
   --light-blue: #00adb5;
-  --white: #eeeeee;
+  --white: #e3e2e2;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--dark-blue);
+  color: rgba(197, 197, 204, 0.9);
 }
 a {
   font-weight: 500;
@@ -25,12 +27,15 @@ a {
 }
 * {
   padding: 0;
+  outline: none;
+  border: none;
   box-sizing: border-box;
   margin: 0;
 }
 .padding {
-  padding: 4rem 7%;
+  padding: 3rem 7%;
 }
+/*-------- navbar styles --------*/
 .navbar {
   position: fixed;
   top: 0;
@@ -40,7 +45,7 @@ a {
   overflow: hidden;
   letter-spacing: 0.5px;
   z-index: 1000;
-  padding: 2rem 7% 0.5rem 7%;
+  padding: 1rem 7% 0.5rem 7%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,30 +55,43 @@ a {
   color: var(--white);
   width: 2.5rem;
 }
-.schedule-a-call a {
+.btn a {
   background-color: var(--white);
   color: var(--dark-blue);
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
+  transition: 0.4s ease;
 }
+.btn a:hover {
+  background-color: var(--light-blue);
+}
+/*-------- reuserble  styles --------*/
 .flex {
   display: flex;
   flex-wrap: wrap;
 }
+.gap {
+  gap: 2rem;
+}
 .wrap-reverse {
   flex-wrap: wrap-reverse;
-}
-.home {
-  gap: 2rem;
-  margin-top: 2.5rem;
-  align-items: center;
-  justify-content: center;
 }
 .item {
   padding: 1rem 0rem;
   flex: 1 1 20rem;
 }
+.align-center {
+  text-align: center;
+}
+/*-------- home styles --------*/
+.home {
+  height: 110vh;
+  margin-top: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
 .pic-section {
   max-width: 100%;
 }
@@ -91,7 +109,7 @@ h1 {
 .web-developer {
   font-size: 5rem;
 }
-h3 {
+.hello-there {
   margin-bottom: 1rem;
 }
 p {
@@ -102,39 +120,39 @@ p {
   font-size: 2rem;
   margin-right: 1rem;
 }
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1.5rem;
-  justify-content: space-between;
+
+/*-------- projects styles --------*/
+.project {
+  padding: 1.5rem 0rem;
 }
 .project-details {
-  margin: 2rem 0rem;
+  margin: 1.5rem 0rem;
   max-width: 500px;
 }
-.project-title {
+.title {
   font-size: 3rem;
   margin: 1rem 0rem;
 }
 .project-image {
-  max-width: 700px;
 }
 .project-image a img {
   max-width: 100%;
   overflow: hidden;
 }
+
+/*-------- foooter styles --------*/
 .footer {
   align-items: center;
   justify-content: space-between;
 }
-.designed {
+.designed-section {
   display: flex;
+  font-size: 1rem;
   max-width: 350px;
   margin: 2rem 0rem;
 }
 .blue-line {
-  width: 70px;
+  width: 50px;
   height: 3px;
   margin-right: 0.8rem;
   background-color: var(--light-blue);
@@ -154,6 +172,7 @@ p {
   color: var(--light-blue);
 }
 
+/*-------- media queries responsive styles --------*/
 @media screen and (max-width: 1000px) {
   h1 {
     line-height: 80px;

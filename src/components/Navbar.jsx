@@ -10,8 +10,10 @@ const Navbar = () => {
           <img src={logo} alt="Logo" />
         </a>
       </div>
-      <div className="schedule-a-call">
-        <a href="#"> Schedule a call</a>
+      <div className="btn">
+        <a href="mailto:muaminab@gmail.com" target="-blank">
+          Schedule a call
+        </a>
       </div>
     </div>
   );

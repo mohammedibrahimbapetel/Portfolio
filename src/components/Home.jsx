@@ -4,12 +4,12 @@ import { PiHandWavingFill } from "react-icons/pi";
 import { profilepic } from "../assets/images";
 const Home = () => {
   return (
-    <div className="home flex wrap-reverse padding">
+    <div className="home gap flex wrap-reverse padding">
       <div className="pic-section item">
         <img src={profilepic} alt="" />
       </div>
       <div className="name-section item">
-        <h3>
+        <h3 className="hello-there">
           <span className="hand-wave">
             <PiHandWavingFill />
           </span>
