@@ -7,17 +7,20 @@ const Footer = () => {
     <div className="footer wrap-reverse flex padding">
       <div className="icons-container">
         <div className="icons">
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/mohammedibrahimbapetel/"
+            target="_blank"
+          >
             <BsLinkedin />
           </a>
         </div>
         <div className="icons">
-          <a href="https://github.com/ahmadibrah77">
+          <a href="https://github.com/mohammedibrahimbapetel" target="_blank">
             <BsGithub />
           </a>
         </div>
         <div className="icons">
-          <a href="https://wa.me/9024966338" target="_blank">
+          <a href="https://wa.me/8159688275" target="_blank">
             <BsWhatsapp />
           </a>
         </div>
