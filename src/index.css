@@ -32,9 +32,7 @@ a {
   box-sizing: border-box;
   margin: 0;
 }
-.padding {
-  padding: 3rem 7%;
-}
+
 /*-------- navbar styles --------*/
 .navbar {
   position: fixed;
@@ -67,6 +65,9 @@ a {
   background-color: var(--light-blue);
 }
 /*-------- reuserble  styles --------*/
+.padding {
+  padding: 3rem 7%;
+}
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -86,8 +87,7 @@ a {
 }
 /*-------- home styles --------*/
 .home {
-  height: 110vh;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   align-items: center;
   justify-content: center;
 }
@@ -123,7 +123,7 @@ p {
 
 /*-------- projects styles --------*/
 .project {
-  padding: 1.5rem 0rem;
+  padding-top: 2rem;
 }
 .project-details {
   margin: 1.5rem 0rem;
@@ -134,6 +134,7 @@ p {
   margin: 1rem 0rem;
 }
 .project-image {
+  max-width: 100%;
 }
 .project-image a img {
   max-width: 100%;
@@ -142,6 +143,7 @@ p {
 
 /*-------- foooter styles --------*/
 .footer {
+  padding: 0rem 7% 2rem 7%;
   align-items: center;
   justify-content: space-between;
 }
@@ -186,5 +188,8 @@ p {
   }
   .hand-wave {
     font-size: 1.5rem;
+  }
+  .title {
+    font-size: 2rem;
   }
 }

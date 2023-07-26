@@ -18,12 +18,8 @@ const Projects = () => {
             make friends.
           </p>
         </div>
-        <div className="project-image flex">
-          <a
-            className="item"
-            href="https://islandwonders.netlify.app/"
-            target="blank"
-          >
+        <div className="project-image">
+          <a href="https://islandwonders.netlify.app/" target="blank">
             <img src={islandwonders} alt="Island Wonders project" />
           </a>
         </div>
@@ -38,8 +34,8 @@ const Projects = () => {
             make friends.
           </p>
         </div>
-        <div className="project-image flex">
-          <a className="item" href="https://otere.netlify.app/" target="_blank">
+        <div className="project-image ">
+          <a href="https://otere.netlify.app/" target="_blank">
             <img src={tere} alt="Tere project" />
           </a>
         </div>

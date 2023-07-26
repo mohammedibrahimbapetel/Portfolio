@@ -4,7 +4,7 @@ import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
   return (
-    <div className="footer wrap-reverse flex padding">
+    <div className="footer wrap-reverse flex ">
       <div className="icons-container">
         <div className="icons">
           <a
