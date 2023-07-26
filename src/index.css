@@ -19,7 +19,7 @@
 
 body {
   background-color: var(--dark-blue);
-  color: rgba(197, 197, 204, 0.9);
+  color: rgba(228, 228, 236, 0.9);
 }
 a {
   font-weight: 500;
@@ -73,7 +73,7 @@ a {
   flex-wrap: wrap;
 }
 .gap {
-  gap: 2rem;
+  gap: 2.5rem;
 }
 .wrap-reverse {
   flex-wrap: wrap-reverse;
@@ -87,7 +87,9 @@ a {
 }
 /*-------- home styles --------*/
 .home {
-  margin-top: 2rem;
+  text-align: center;
+  height: 100dvh;
+  margin-top: 3rem;
   align-items: center;
   justify-content: center;
 }
@@ -120,7 +122,29 @@ p {
   font-size: 2rem;
   margin-right: 1rem;
 }
+/*-------- personal introduction styles --------*/
+.aboutme-section,
+.skills-section {
+  flex: 1 1 25rem;
+}
+.aboutme-section {
+  max-width: 600px;
+}
+.aboutme-section p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.5px;
+}
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.personalintroduction {
+  padding: 0rem 7%;
+}
 /*-------- projects styles --------*/
 .project {
   padding-top: 2rem;

@@ -5,9 +5,6 @@ import { profilepic } from "../assets/images";
 const Home = () => {
   return (
     <div className="home gap flex wrap-reverse padding">
-      <div className="pic-section item">
-        <img src={profilepic} alt="" />
-      </div>
       <div className="name-section item">
         <h3 className="hello-there">
           <span className="hand-wave">
