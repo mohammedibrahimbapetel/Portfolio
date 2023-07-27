@@ -3,6 +3,7 @@ import React from "react";
 import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
+  const resume = "/src/assets/bapetelresume.pdf";
   return (
     <div className="footer wrap-reverse flex ">
       <div className="icons-container">
@@ -30,11 +31,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="btn">
-          <a
-            href="/src/assets/bapetelresume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </div>
