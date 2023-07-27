@@ -3,7 +3,6 @@ import React from "react";
 import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
-  const resume = "/src/assets/bapetelresume.pdf";
   return (
     <div className="footer wrap-reverse flex ">
       <div className="icons-container">
@@ -28,11 +27,6 @@ const Footer = () => {
         <div className="icons">
           <a href="mailto:muaminab@gmail.com" target="_blank">
             <HiOutlineMail />
-          </a>
-        </div>
-        <div className="btn">
-          <a href={resume} target="_blank" rel="noopener noreferrer">
-            Resume
           </a>
         </div>
       </div>
