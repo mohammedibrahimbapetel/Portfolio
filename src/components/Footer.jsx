@@ -30,7 +30,13 @@ const Footer = () => {
           </a>
         </div>
         <div className="btn">
-          <a href="#"> Resume</a>
+          <a
+            href="/src/assets/bapetelresume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </div>
       <div className="designed-section">
