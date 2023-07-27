@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="padding">
       <div className="align-center">
         <h2 className="title">What I've been working on</h2>
-        <h3>Take a look at some of the websites I've dedicated my time to</h3>
+        <p>Take a look at some of the websites I've dedicated my time to</p>
       </div>
       <div className="project ">
         <div className="project-details">

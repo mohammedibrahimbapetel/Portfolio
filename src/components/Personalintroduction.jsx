@@ -3,15 +3,16 @@ import { skills } from "../assets/images";
 
 const Personalintroduction = () => {
   return (
-    <div className="personalintroduction wrap-reverse gap flex">
-      <div className="item skills-section">
-        <h2 className="title">My Skills</h2>
-        <div className="skills  align-center">
+    <div className="padding gap flex">
+      <div className="item">
+        <h2 className="title ">My Skills</h2>
+        <div className="item skills align-center">
           <img src={skills} alt="" />
         </div>
       </div>
-      <div className="item aboutme-section">
-        <h2 className="title">About Me</h2>
+
+      <div className="item ">
+        <h2 className="title ">About Me</h2>
         <p>
           I'm Mohammed, a front-end developer specializing in web experiences.
           With HTML, CSS, JavaScript, React.js and git, I craft clean and

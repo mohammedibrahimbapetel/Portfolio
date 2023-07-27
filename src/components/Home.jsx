@@ -1,10 +1,11 @@
 import React from "react";
 import "../index.css";
+
 import { PiHandWavingFill } from "react-icons/pi";
-import { bg } from "../assets/images";
+
 const Home = () => {
   return (
-    <div className="home  padding">
+    <div className="home flex padding">
       <div className="name-section item">
         <h3 className="hello-there">
           <span className="hand-wave">

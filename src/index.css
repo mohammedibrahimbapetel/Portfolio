@@ -1,24 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Lunasima:wght@400;700&family=Oswald:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
 
 :root {
   color-scheme: light dark;
-  --oswaldfont: "Oswald", sans-serif;
+
   --belonosima: "Belanosima", sans-serif;
-  --lunosima: "Lunasima", sans-serif;
-  font-family: sans-serif;
+
+  font-family: var(--belonosima);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  --dark-blue: #010217;
-  --white: #f4f4f4;
+  --blue: #043d83;
+  --white: #fafcfc;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--dark-blue);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--blue);
 }
 a {
   font-weight: 500;
@@ -46,15 +46,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--dark-blue);
+  background-color: var(--white);
+  box-shadow: 0.1px 0.1px 5px 0.2px #aeaeaeee;
 }
 .logo a img {
   color: var(--white);
-  width: 2.5rem;
+  width: 2rem;
 }
 .btn a {
-  background-color: var(--white);
-  color: var(--dark-blue);
+  background-color: var(--blue);
+  color: var(--white);
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
@@ -70,7 +71,7 @@ a {
   flex-wrap: wrap;
 }
 .gap {
-  gap: 2.5rem;
+  gap: 2rem;
 }
 .wrap-reverse {
   flex-wrap: wrap-reverse;
@@ -84,21 +85,19 @@ a {
 }
 /*-------- home styles --------*/
 .home {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   align-items: center;
-  justify-content: end;
-  background-image: url("../src/assets/bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
+.name-section {
+  margin-top: 2rem;
+}
 h1 {
   line-height: 120px;
   font-weight: 900;
-  font-family: var(--oswaldfont);
   font-size: 7rem;
 }
 .web-developer {
@@ -108,8 +107,8 @@ h1 {
   margin-bottom: 1rem;
 }
 p {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 .hand-wave {
   font-size: 2rem;
@@ -119,18 +118,7 @@ p {
 .personalintroduction {
   padding: 2rem 7% 0rem 7%;
 }
-.aboutme-section,
-.skills-section {
-  flex: 1 1 20rem;
-}
-.aboutme-section {
-  max-width: 600px;
-}
-.aboutme-section p {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  letter-spacing: 0.5px;
-}
+
 .skills {
   max-width: 100%;
 }
@@ -150,7 +138,7 @@ p {
   margin: 1rem 0rem;
 }
 .title a {
-  color: var(--white);
+  color: var(--blue);
   font-weight: bold;
   font-size: 2.2rem;
 }
@@ -170,7 +158,7 @@ p {
 }
 .designed-section {
   display: flex;
-  font-size: 1rem;
+  font-size: 1.1rem;
   max-width: 350px;
   margin: 2rem 0rem;
 }
@@ -178,25 +166,22 @@ p {
   width: 50px;
   height: 3px;
   margin-right: 0.8rem;
-  background-color: var(--white);
+  background-color: var(--blue);
 }
 .icons-container {
   display: flex;
   align-items: center;
 }
 .icons a {
-  color: var(--white);
+  color: var(--blue);
   padding: 0.5rem;
   margin: 0.3rem;
   font-size: 1.8rem;
   transition: 0.3s ease-in;
 }
-.icons a:hover {
-  color: var(--light-blue);
-}
 
 /*-------- media queries responsive styles --------*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   h1 {
     line-height: 80px;
     font-size: 4rem;
