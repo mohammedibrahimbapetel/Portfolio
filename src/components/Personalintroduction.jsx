@@ -3,7 +3,7 @@ import { skills } from "../assets/images";
 
 const Personalintroduction = () => {
   return (
-    <div className="padding gap flex">
+    <div className="padding wrap-reverse gap flex">
       <div className="item">
         <h2 className="title ">My Skills</h2>
         <div className="item skills align-center">
