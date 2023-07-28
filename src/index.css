@@ -184,21 +184,19 @@ p {
 @media screen and (max-width: 700px) {
   h1 {
     line-height: 80px;
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
   .web-developer {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
-  h3 {
-    font-size: 0.9rem;
-  }
+
   .hand-wave {
     font-size: 1.5rem;
   }
   .title {
     font-size: 2rem;
   }
-  .aboutme-section p {
+  p {
     font-size: 1rem;
   }
 }
