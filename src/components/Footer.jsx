@@ -31,8 +31,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="designed-section">
-        <div className="blue-line"></div>Designed in Figma and coded in VS Code
-        by yours truly. Built with React.js
+        Designed in Figma and coded in VS Code by yours truly. Built with
+        React.js
       </div>
     </div>
   );

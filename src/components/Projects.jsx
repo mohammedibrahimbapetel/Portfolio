@@ -13,6 +13,7 @@ const Projects = () => {
           <h2 className="title">
             <a href="https://islandwonders.netlify.app/">Island Wonders</a>
           </h2>
+          <h2 className="sub-header">Built with React</h2>
           <p>
             Build a travel website platform designed to help travelers,
             research, their dream vacations. We offer a comprehensive database
@@ -32,6 +33,7 @@ const Projects = () => {
           <h2 className="title">
             <a href="https://otere.netlify.app/">Tere</a>
           </h2>
+          <h2 className="sub-header">Built with React</h2>
           <p>
             Build and eco-friendly Social Landing page of an App, where an
             individual can download the app for free and take part in a unique

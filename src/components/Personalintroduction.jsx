@@ -1,13 +1,36 @@
 import React from "react";
-import { skills } from "../assets/images";
+import { hm, css, js, tailwind, react, git } from "../assets/images";
 
 const Personalintroduction = () => {
   return (
-    <div className="padding wrap-reverse gap flex">
+    <div className="padding wrap-reverse gap flex" style={{ gap: "4rem" }}>
       <div className="item">
         <h2 className="title ">My Skills</h2>
-        <div className="item skills align-center">
-          <img src={skills} alt="" />
+        <div className="item flex align-center  skills ">
+          <div className="skill">
+            <img src={hm} alt="" />
+            <h3>HTML 5</h3>
+          </div>
+          <div className="skill">
+            <img src={css} alt="" />
+            <h3>CSS 3</h3>
+          </div>
+          <div className="skill">
+            <img src={js} alt="" />
+            <h3>JavaScript</h3>
+          </div>
+          <div className="skill">
+            <img src={tailwind} alt="" />
+            <h3>TailwindCSS</h3>
+          </div>
+          <div className="skill">
+            <img src={react} alt="" />
+            <h3>React.js</h3>
+          </div>
+          <div className="skill">
+            <img src={git} alt="" />
+            <h3>GIT</h3>
+          </div>
         </div>
       </div>
 

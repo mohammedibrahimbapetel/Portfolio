@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import { hm } from "../assets/images";
 
 import { PiHandWavingFill } from "react-icons/pi";
 
