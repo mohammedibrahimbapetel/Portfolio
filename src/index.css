@@ -216,4 +216,10 @@ p {
   p {
     font-size: 1.1rem;
   }
+  .skills {
+    gap: 1rem;
+  }
+  .skill {
+    flex: 1 1 5rem;
+  }
 }
