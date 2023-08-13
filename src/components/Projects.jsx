@@ -23,27 +23,8 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image">
-          <a href="https://islandwonders.netlify.app/" target="blank">
+          <a href="https://islandwonders.vercel.app/" target="blank">
             <img src={islandwonders} alt="Island Wonders project" />
-          </a>
-        </div>
-      </div>
-      <div className="project ">
-        <div className="project-details">
-          <h2 className="title">
-            <a href="https://otere.netlify.app/">Tere</a>
-          </h2>
-          <h2 className="sub-header">Built with React</h2>
-          <p>
-            Build and eco-friendly Social Landing page of an App, where an
-            individual can download the app for free and take part in a unique
-            and rewarding experience, connect with like-minded individuals and
-            make friends.
-          </p>
-        </div>
-        <div className="project-image ">
-          <a href="https://otere.netlify.app/" target="_blank">
-            <img src={tere} alt="Tere project" />
           </a>
         </div>
       </div>
